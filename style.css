@@ -1,0 +1,32 @@
+body{
+  font-size: 20PX;
+}
+header{
+  height: 250px;
+  background-color: #f8f8f8;
+}
+
+.subtitle{
+  font-size: 1em;
+  color: rgb(73, 73, 73);
+}
+
+@media only screen and (max-width: 770px) and (min-width: 400px)  {
+  .image{
+    display: none;
+  }
+}
+.card{
+  border: none;
+  margin-top: 10%;
+}
+h5{
+  font-size: 1.5em;
+}
+h6{
+  font-size: 1.2em;
+  color: rgb(30, 115, 136);
+}
+.card-title{
+  margin-bottom: 20px;
+}
