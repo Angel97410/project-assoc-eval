@@ -1,62 +1,73 @@
-body{
+body {
   font-size: 20PX;
 }
-header{
+
+header {
   height: 250px;
   background-color: #f8f8f8;
 }
 
-.subtitle{
+.subtitle {
   font-size: 1em;
   color: rgb(73, 73, 73);
 }
 
-@media only screen and (max-width: 770px) and (min-width: 400px)  {
-  .image{
+.image {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 770px) and (min-width: 400px) {
+  .image {
     display: none;
+
   }
 }
-.card{
+
+.card {
   border: none;
   margin-top: 10%;
 }
-h5{
+
+h5 {
   font-size: 1.5em;
 }
-h6{
+
+h6 {
   font-size: 1.2em;
   color: rgb(30, 115, 136);
 }
-.card-title{
+
+.card-title {
   margin-bottom: 20px;
 }
-.footer-basic{
+
+.footer-basic {
   padding: 40px 0;
   height: 100px;
   background-color: #f8f8f8;
-  text-align:center;
-  padding-bottom:25px;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 .footer-basic ul {
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:18px;
-  line-height:1.6;
-  margin-bottom:0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
 }
 
 .footer-basic li {
-  padding:0 10px;
+  padding: 0 10px;
 }
 
 .footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
 }
 
 .footer-basic ul a:hover {
-  opacity:1;
+  opacity: 1;
 }
